@@ -63,7 +63,7 @@ export function FilterBar() {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4">k
       <div className="flex flex-col md:flex-row gap-4 items-center">
         <div className="relative flex-1 max-w-md">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
@@ -75,9 +75,9 @@ export function FilterBar() {
           />
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 ">
           <Select value={selectedCategory} onValueChange={handleCategoryChange}>
-            <SelectTrigger className="w-40">
+            <SelectTrigger className="w-30">
               <SelectValue placeholder="Category" />
             </SelectTrigger>
             <SelectContent>
